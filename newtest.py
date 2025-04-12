@@ -8,6 +8,7 @@ formula = 'Fe'  # material chemical formula
 density = 7.88  # material density in gr/cm^3
 thickness = 1.000000  # material thickness, in mm
 energy = np.arange(100, 40000+50, 50)
+#energy = np.arange(100, 100000+50, 50)
 
 mu_array = xraydb.material_mu(formula, energy, density=density)
 
