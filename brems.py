@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 def spectrum(kvp) : 
     # Generate unfiltered spectrum
-    s=sp.Spek(kvp,th=12)
+    s=sp.Spek(kvp,th=12,dk=0.4)
     # Filter the spectrum
     #s.filter('Fe',1.0)
     # Get energy values array and fluence arrays (return values at bin-edges)
